@@ -12,7 +12,8 @@ from airflow.operators.python import (
         BranchPythonOperator,
 )
 
-sys.path.append('/home/kyuseok00/news/py/src/py')  
+# sys.path.append('/home/kyuseok00/news/py/src/py')  
+sys.path.append('/home/kyuseok00/news/airflow/py/src/py')  
 
 from keyword_tfidf import extract_keywords
 from extract import crawl_data  
