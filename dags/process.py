@@ -90,5 +90,5 @@ with DAG(
     end = EmptyOperator(task_id='end')
 
     # start >> crawl_task >> summarize_task >> keywords_tfidf >> keywords_api >> end
-    # start >> crawl_task >> keywords_keybert >> keywords_tfidf >> summarize_task >> keywords_api >> end
-    start >> keywords_tfidf >> end
+    start >> crawl_task >> keywords_keybert >> keywords_tfidf >> summarize_task >> keywords_api >> end
+    # start >> keywords_tfidf >> end
