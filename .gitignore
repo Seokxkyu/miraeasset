@@ -1,0 +1,14 @@
+airflow.db
+airflow-scheduler.pid
+airflow.cfg
+standalone_admin_password.txt
+airflow-webserver-monitor.pid
+webserver_config.py
+airflow-scheduler.err
+airflow-webserver.err
+airflow-scheduler.log
+airflow-webserver.log
+airflow-scheduler.out
+airflow-webserver.out
+logs/
+logs

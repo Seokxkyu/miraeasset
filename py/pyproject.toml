@@ -1,0 +1,25 @@
+[project]
+name = "py"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Seokxkyu", email = "kyuseok000@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.12.3",
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+    "konlpy>=0.6.0",
+    "scikit-learn>=1.5.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src/", "."]
