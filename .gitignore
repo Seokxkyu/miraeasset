@@ -12,3 +12,4 @@ airflow-scheduler.out
 airflow-webserver.out
 logs/
 logs
+dags/__pycache__/
